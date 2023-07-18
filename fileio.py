@@ -22,7 +22,6 @@ def fileio(filepath='', file_content=''):
     "Pragma": "no-cache",
     "Cache-Control": "no-cache"
     }
-  }
   if filepath:
     filename = filepath.split('/')[-1] if '/' in filepath else filepath
   if filename:
